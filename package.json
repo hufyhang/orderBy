@@ -1,6 +1,6 @@
 {
   "name": "orderby-shiv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sort/order arrays with orderBy.",
   "main": "index.js",
   "scripts": {
