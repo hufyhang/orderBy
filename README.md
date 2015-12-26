@@ -1,4 +1,4 @@
-### orderBy
+### orderby-shiv
 
 Order an array of objects by given key.
 
@@ -14,7 +14,7 @@ Order `array` by `key`, and __returns__ the result array.
 
 ~~~js
 // In Node.js
-var orderBy = require('orderBy').orderBy;
+var orderBy = require('orderby-shiv').orderBy;
 var ordered = orderBy(targetArray, 'id');
 
 

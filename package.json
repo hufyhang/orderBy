@@ -1,5 +1,5 @@
 {
-  "name": "orderby",
+  "name": "orderby-shiv",
   "version": "1.0.0",
   "description": "Sort/order arrays with orderBy.",
   "main": "index.js",
