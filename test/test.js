@@ -1,6 +1,6 @@
 'use strict';
 var should = require('should');
-var orderBy = require('../index.js').orderBy;
+var orderBy = require('../index.js');
 
 var friends =
        [{name:'John', phone:'555-1212', age:10},

@@ -1,6 +1,15 @@
 'use strict';
-(function (exports) {
-  var orderBy = function orderBy (target, by, decend) {
+
+(function (definition) {
+  if (typeof module !== 'undefined' && typeof exports !== 'undefined') {
+    module.exports = definition();
+  }
+  else {
+    window.orderBy = definition();
+  }
+})(
+function () {
+  return function orderBy (target, by, decend) {
     // If `target` is not an target, throw type error.
     var type = Object.prototype.toString.call(target);
     if (type !== '[object Array]') {
@@ -42,7 +51,4 @@
 
     return result;
   };
-
-  // Now, export `orderBy`.
-  exports.orderBy = orderBy;
-})(typeof exports === 'undefined' ? window : exports);
+});
