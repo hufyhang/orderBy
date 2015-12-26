@@ -1,0 +1,14 @@
+{
+  "name": "orderby",
+  "version": "1.0.0",
+  "description": "Sort/order arrays with orderBy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Feifei Hang <l.daniel.hung@gmail.com> (http://feifeihang.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^8.0.2"
+  }
+}
